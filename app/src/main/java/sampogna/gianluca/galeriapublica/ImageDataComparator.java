@@ -17,3 +17,4 @@ class ImageDataComparator extends DiffUtil.ItemCallback<ImageData> {
         return oldItem.uri.equals(newItem.uri);
     }
 }
+
