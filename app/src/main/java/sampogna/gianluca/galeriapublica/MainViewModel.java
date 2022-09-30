@@ -4,6 +4,8 @@ import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.paging.PagingData;
 
 public class MainViewModel extends AndroidViewModel {
 
@@ -19,6 +21,10 @@ public class MainViewModel extends AndroidViewModel {
 
     public void setNavigationOpSelected(int navigationOpSelected) {
         this.navigationOpSelected = navigationOpSelected;
+    }
+
+    public LiveData<PagingData<ImageData>> getPageLv() {
+        return getPageLv();
     }
 }
 

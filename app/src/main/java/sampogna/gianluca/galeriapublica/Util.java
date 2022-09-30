@@ -1,7 +1,5 @@
 package sampogna.gianluca.galeriapublica;
 
-package sampogna.gianluca.galeriapublica;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

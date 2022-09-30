@@ -1,5 +1,6 @@
 package sampogna.gianluca.galeriapublica;
 
+
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
@@ -10,12 +11,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 
-import com.google.firebase.firestore.util.Util;
-
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 public class GalleryRepository {
 
